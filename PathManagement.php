@@ -43,6 +43,12 @@ class PathManagement {
 		exec($cmd);
 	}
 
+	function getSystemPath() {
+		//reg_open_key();
+		//$swbemLocator = new \COM('WbemScripting.SWbemLocator', null, CP_UTF8);
+
+	}
+
 }
 
 $p = new PathManagement();
